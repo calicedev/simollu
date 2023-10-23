@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "881291233653",
+    "project_id": "simollu-7e589",
+    "storage_bucket": "simollu-7e589.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881291233653:android:85da9d25597592173aab3c",
+        "android_client_info": {
+          "package_name": "com.example.simollu_front"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881291233653-j3v0pfj3f3js3tkb5e258ehnfu5oo5o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3gQ-ba8_HlZetxsyazwj3vTFSrdUcq8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881291233653-j3v0pfj3f3js3tkb5e258ehnfu5oo5o0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "881291233653-rkpeacct5ndq6bia4nl1tbblbslt62rc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.simolluFront"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

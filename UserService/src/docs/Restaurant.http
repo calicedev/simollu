@@ -1,0 +1,29 @@
+
+# 엔티티 document로 전환해서 ES에 저장
+# POST http://localhost:8080/api/restaurantDocuments
+POST http://localhost:8080/user/
+37.5013068&cy=127.0396597&size=10
+###
+# 포함하는 것 찾기
+# GET http://localhost:8080/api/search/contains?description=동동쓰&cx=126.8828469&cy=37.48272445&size=10
+GET http://localhost:8080/search/contains?description=김밥&lat=37.5013068&lon=127.0396597&size=10
+
+# 랭킹
+###
+GET http://localhost:8080/search/top-search-keyword
+
+# redis로 강제로 데이터 보내는 코드
+###
+GET http://localhost:8080/search/top-search-keyword2
+
+# 레스토랑 정보 가져오기
+###
+GET http://localhost:8080/restaurant/125
+
+
+###
+GET http://localhost:8080/review/writeReviewRedis
+
+
+###
+GET http://localhost:8080/main/37.50073944/127.0279792

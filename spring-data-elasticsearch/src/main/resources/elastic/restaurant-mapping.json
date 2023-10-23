@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "restaurantSeq": { "type": "keyword" },
+    "restaurantCategory": { "type": "text", "analyzer": "korean" },
+    "restaurantRating": { "type": "keyword" },
+    "restaurantPhoneNumber": { "type": "keyword" },
+    "restaurantAddress": { "type": "text", "analyzer": "korean" },
+    "restaurantImg": { "type": "keyword" },
+    "restaurantBusinessHours": { "type": "keyword" },
+    "restaurantName": { "type": "text", "analyzer": "korean" },
+    "restaurantY": { "type": "keyword" },
+    "restaurantX": { "type": "keyword" },
+    "location": {
+      "type": "geo_point"
+    }
+  }
+}
+

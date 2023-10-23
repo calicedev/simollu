@@ -1,0 +1,25 @@
+.restaurant-admin-page {
+  display: flex;
+  background-color: #ffd200;
+  // border-bottom-right-radius: 100px;
+  width: auto;
+  height: 200px;
+  // background-size: 100% 30%;
+
+  .restaurant-admin-page__text {
+    display: flex;
+    color: black;
+    font-size: 30px;
+    width: 430px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+
+.restaurant-admin-page__logo {
+  width: 290px;
+  height: 57.57px;
+  margin-top: 148px;
+  background-image: url(../assets/Group430.png);
+}
